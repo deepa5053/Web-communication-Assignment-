@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DE-VE-DE Movie Tracker</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <h1>DE-VE-DE Movie Tracker</h1>
+
+  <!-- Form to add a movie -->
+  <form id="addMovieForm">
+    <label>Title: <input type="text" id="title" required></label>
+    <label>Genre: <input type="text" id="genre" required></label>
+    <label>Release Date: <input type="text" id="releaseDate" required></label>
+    <button type="submit">Add Movie</button>
+    
+   
+  </form>
+
+  <!-- Movie List -->
+  <ul id="movieList"></ul>
+
+  <script src="js/index.js" type="module"></script>
+</body>
+</html>
